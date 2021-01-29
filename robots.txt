@@ -1,4 +1,4 @@
-Sitemap: https://jacobmcelhinney.github.io/Labb1Live/sitemapxml
+Sitemap: https://jacobmcelhinney.github.io/Labb1Live/sitemap.xml
 User-agent: *
 Disallow:
 
