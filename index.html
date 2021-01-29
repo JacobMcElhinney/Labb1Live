@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Hanssons Hårsalong</title>
+    <meta 
+      name="description" 
+      content="Frisyrer för vardag och fest"/>
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!--Navbar/Global Menu. Boostrap component: Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><strong>Hanssons Hårsalong</strong> </a>
+          <!--Button: click to expand drop-down list (smaller displays) -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Container for listed navigation links (collapses on smaller displays) -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Unordered list with hypertext anchors: nav-links to sub-pages (nav-items) -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="tjänster.html">Tjänster</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="prislista.html">Prislista</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kontakt.html">Kontakt</a>
+              </li>
+            </ul>
+            <!-- Link styled as button -->
+            <a href="boka-tid.html" class="btn btn-outline-success"
+              >Boka tid!</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid p-md-4">
+      <!--  "Välkommen till oss". Image. Bootstrap component: Card -->
+      <section class="row g-3">
+        <div class="col-md-6">
+          <h2>Välkommen till oss!</h2>
+          <p class="card-text">
+            Hansons hårsalong har i över 100 år hjälpt till med frisyrer både
+            för<br />
+            vardag och fest.
+          </p>
+          <a title="Tjänster" href="tjänster.html" class="btn btn-primary"
+            >Tjänster</a
+          >
+        </div>
+        <!-- FIGURE: decorative image -->
+        <figure class="col-md-6">
+          <img class="img-fluid" 
+          src="img/index-scissors.jpg" 
+          alt="scissors"
+          width="1490"
+          height="1000" />
+        </figure>
+      </section>
+    </main>
+
+    <!-- place script at end of body element to optimise page loading speed. another solution is to add the "
+    defer" attribute to script element.  ".min" means the file is minified for optimal loading speed. ".min" can
+    be exluded for increased readability if you wanted to access the resource yourself.-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

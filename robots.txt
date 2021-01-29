@@ -1,0 +1,9 @@
+user-agent: *
+Disallow: /kontakt/
+
+# The rest
+user-agent: *
+Allow:/
+
+sitemap: Https://Hanssonsharsalong/sitemap
+
