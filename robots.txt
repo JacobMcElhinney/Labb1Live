@@ -1,9 +1,4 @@
-user-agent: *
-Disallow: /kontakt/
-
-# The rest
-user-agent: *
-Allow:/
-
-sitemap: https://jacobmcelhinney.github.io/Labb1Live/sitemap
+Sitemap: https://jacobmcelhinney.github.io/Labb1Live/sitemapxml
+User-agent: *
+Disallow:
 
